@@ -1,0 +1,240 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 70%;
+    margin-left: 25%;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 25%;
+}
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: rgb(135, 135, 245);
+}
+
+h1 {
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+hr {
+    width: 5%;
+    border: 2px solid rgb(135, 135, 245);
+
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.para {
+    font-size: 16pt;
+    margin-top: 5%;
+}
+
+.img2 {
+    width: 25%;
+    border-radius: 50%;
+    /* margin-left: 60%; */
+}
+.code-section {
+    display: flex;
+    align-items: center;
+}
+.code {
+    width: 0.2%;
+    height: 80px;
+    margin: 15px;
+    background-color: rgb(135, 135, 245);
+}
+
+#blog{
+    scroll-margin-top: 30px;
+    scroll-behavior: smooth;
+}
+#Start{
+    scroll-margin-top: 30px;
+    scroll-behavior: smooth;
+
+}
+#skill{
+    scroll-margin-top: 30px;
+    scroll-behavior: smooth; 
+}
+h2 {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+h3 {
+    margin-left: 19%;
+    margin-top: 4%;
+}
+
+
+
+
+img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.img2 {
+    
+    /* width: 100%; */
+   
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        padding: 0 15px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu ul li {
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .para {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    .img2 {
+        width: 90%;
+        max-width: 500px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .code-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .para {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    /* Mobile-la image full width, edges rounded */
+    .img2 {
+        width: 100%;
+        max-width: 100%;
+        margin: 15px 0;
+        border-radius: 6px;
+    }
+
+    /* Header logo image mobile-la sirusu aagum */
+    .header img {
+        width: 60px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Long text-a mobile-la wrap pannum */
+    .para br {
+        display: none;
+    }
+}
+
+/* ---------- SMALL MOBILE (360px and below) ---------- */
+@media screen and (max-width: 360px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .para {
+        font-size: 13px;
+    }
+
+    .img2 {
+        border-radius: 4px;
+    }
+}
